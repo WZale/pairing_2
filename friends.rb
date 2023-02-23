@@ -1,6 +1,11 @@
 best_friend = "Chris"
-if best_friend == "Chris"
-    puts "true"
+good_friend = "Austin"
+best = false
+good = true
+if best 
+    puts "Hey #{best_friend}"
+elsif good
+    puts "Hey #{good_friend}"
 else
-    puts "false"
+    puts "Hey stranger!"
 end
